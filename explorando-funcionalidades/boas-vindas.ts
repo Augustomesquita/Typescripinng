@@ -4,4 +4,8 @@ export class BoasVindas {
     public getMensagem(): string {
         return this.mensagemBoasVindas
     }
+
+    public setMensagem(mensagemBoasVindas: string): void {
+        this.mensagemBoasVindas = mensagemBoasVindas
+    }
 }
