@@ -3,7 +3,7 @@ Projeto com vários arquivos typescriping que visam explorar as novas funcionali
 
 Para realizar a transpilação dos arquivos typescript para javascrip é necessário ter o TypeScript instalado em sua máquina e utilizar o comando:
 ```sh
-$ tsc nome-do-arquivo.ts
+$ tsc nome-do-arquivo.ts -t 'ES2017'
 ```
 
 Para execução do arquivo javascript gerado, você pode utilizar o próprio node através do comando:

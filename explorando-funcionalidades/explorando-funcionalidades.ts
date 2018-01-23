@@ -2,7 +2,7 @@
 import { BoasVindas } from './boas-vindas';
 
 // Comando úteis
-// tsc nome-do-arquivo-typescript.ts (transpila typescript para javascript)
+// tsc nome-do-arquivo-typescript.ts -t 'ES2017' (transpila typescript para javascript utilizando ECMA Script 2017)
 // node nome-do-arquivo-javascript.js (executa o javascript)
 
 // Testando map vs forEach
