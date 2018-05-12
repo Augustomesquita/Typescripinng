@@ -17,8 +17,10 @@ let listBoasVindas:BoasVindas[] = [
 console.log("Lista original:")
 listBoasVindas.forEach(s => console.log(s.getMensagem()))
 
-// Map é usado quando queremos montar uma nova lista a partir das operações realizadas.
-// O forEach não possui essa capacidade de retorno (ele é um void)
+// Map é usado quando queremos montar uma nova lista em outro formato a partir das operações realizadas.
+// O forEach não possui essa capacidade de retorno (ele é um void). 
+// No caso abaixo estamos varrendo a lista de objetos do tipo 'BoasVindas' filtrando por mensagens que incluem a letra 'A'
+// e transformando o resultado em uma lista do tipo 'string' através do map.
 let stringListBoasVindas:string[] = listBoasVindas.filter(s => s.getMensagem().includes('A')).map(s => s.getMensagem());
 
 console.log("\n\nLista de 'string' gerada a partir da lista de objetos 'BoasVindas'")
